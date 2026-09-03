@@ -1,6 +1,6 @@
 export const siteNavLinks = [
   { label: "Excursions", href: "/excursions" },
-  { label: "Port Guide", href: "/molde-port-guide" },
-  { label: "One Day", href: "/one-day-in-molde" },
-  { label: "Worth Visiting?", href: "/is-molde-worth-visiting" },
+  { label: "Plan your day", href: "/one-day-in-molde" },
+  { label: "Ship schedule", href: "/ship-schedule" },
+  { label: "Port guide", href: "/molde-port-guide" },
 ] as const;

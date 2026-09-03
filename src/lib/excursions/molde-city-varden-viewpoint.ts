@@ -6,10 +6,10 @@ export const moldeCityVardenViewpointExcursion: ExcursionData = {
   path: "/excursions/molde-city-varden-viewpoint",
   title: "City of Roses & Mount Varden",
   headline: "Molde City of Roses and Mount Varden Viewpoint",
-  lead: "Shorter scenic city tour — Molde town, City of Roses gardens, harbour area, Mount Varden viewpoint, and Romsdal Alps panorama designed for tighter cruise port calls.",
+  lead: "Shorter scenic city tour: Molde town, harbour area, Mount Varden viewpoint, and town panorama designed for tighter cruise port calls.",
   metaTitle: "Molde City of Roses & Mount Varden Shore Excursion",
   metaDescription:
-    "Molde City of Roses and Mount Varden viewpoint tour for cruise passengers. Harbour walks, town centre, Romsdal Alps panorama, and return-to-ship friendly short port calls.",
+    "Molde City of Roses and Mount Varden viewpoint tour for cruise passengers. Harbour walks, town centre, Mount Varden panorama, and return-buffer planning for shorter port calls.",
   heroImage: siteImages.cityVardenTour,
   heroImageAlt: imageAlts.cityVardenCard,
   heroBadge: "Best for shorter Molde port calls",
@@ -18,40 +18,40 @@ export const moldeCityVardenViewpointExcursion: ExcursionData = {
     meetingPoint:
       "Molde harbour, cruise berth, or town centre meeting point",
     returnReassurance:
-      "Compact itinerary for under-four-hour and four-hour port windows",
+      "Compact itinerary for under-four-hour and four-hour port windows with gangway buffer",
     bestFor:
       "Guests with limited time ashore who still want Molde's signature panorama and harbour atmosphere",
   },
   snapshotCards: [
     { label: "Walk from ship", value: "Often 5–15 minutes to town centre" },
     { label: "Fitness level", value: "Easy to moderate (Varden path optional)" },
-    { label: "Highlights", value: "Harbour, roses, Mount Varden panorama" },
+    { label: "Highlights", value: "Harbour, town, Mount Varden panorama" },
     { label: "Season", value: "Popular May–September" },
   ],
   gallery: [
     { src: siteImages.moldeHarbour, alt: imageAlts.moldeHarbour },
     { src: siteImages.mountVarden, alt: imageAlts.mountVarden },
     { src: siteImages.cityRoses, alt: imageAlts.cityRoses },
-    { src: siteImages.romsdalAlps, alt: imageAlts.romsdalAlps },
+    { src: siteImages.mountVarden, alt: imageAlts.mountVarden },
   ],
   highlights: [
     "Molde town and City of Roses character",
     "Harbour area and waterfront stroll",
-    "Mount Varden viewpoint with Romsdal Alps panorama",
+    "Mount Varden viewpoint with town and fjord panorama",
     "Compact touring for shorter port calls",
-    "Photo stops over Molde fjord and town rooftops",
-    "Return-to-ship friendly pacing near cruise berths",
+    "Photo stops over Molde harbour and town rooftops",
+    "Return-buffer pacing near cruise berths",
   ],
   description: [
-    "When your ship grants limited hours in port, the City of Roses and Mount Varden tour delivers Molde's essentials without the long drive to the Atlantic Ocean Road. Your guide introduces the harbour — where cruise ships meet local ferries and coastal life — then the town centre known for roses, parks, and relaxed Nordic urban charm.",
-    "Mount Varden rises behind Molde with a cable car or walking path to a viewpoint that looks across the town, Moldefjord, and on clear days the jagged Romsdal Alps — one of the great panoramas on the Norwegian cruise circuit. Commentary explains why Molde brands itself the City of Roses and how the Romsdal landscape shapes local identity.",
+    "When your ship grants limited hours in port, the City of Roses and Mount Varden tour delivers Molde's essentials without the long drive to the Atlantic Ocean Road. Your guide introduces the harbour, where cruise ships meet local ferries and coastal life, then the town centre known for roses, parks, and relaxed Nordic urban charm.",
+    "Mount Varden rises behind Molde with a cable car or walking path to a viewpoint that looks across the town, Moldefjord, and on clear days wider Romsdal scenery. Commentary explains why Molde brands itself the City of Roses and how the local landscape shapes identity.",
     "This excursion keeps transfers minimal so you spend time on scenery rather than motorways. It pairs naturally with an independent harbour lunch or souvenir shopping when your schedule allows a buffer before all aboard.",
-    "Our Cruise Smart Planner flags this tour for under-four-hour and tight four-hour port calls — the practical choice when Atlantic Ocean Road touring would cut too close to your gangway deadline.",
+    "Our Cruise Smart Planner flags this tour for under-four-hour and tight four-hour port calls, the practical choice when Atlantic Ocean Road touring would cut too close to your gangway deadline.",
   ],
   included: [
     "Guided Molde town and harbour orientation",
     "Mount Varden viewpoint visit (transport or path as per itinerary)",
-    "Commentary on City of Roses heritage and Romsdal scenery",
+    "Commentary on City of Roses heritage and local scenery",
     "Route paced for shorter cruise port timings",
   ],
   notIncluded: [
@@ -80,7 +80,7 @@ export const moldeCityVardenViewpointExcursion: ExcursionData = {
     {
       question: "Is this tour enough for a full Molde port day?",
       answer:
-        "It is the best fit for short calls. With six or more hours, consider adding the Atlantic Ocean Road tour instead or as a second booking if timing allows.",
+        "It is the best fit for short calls. With six or more confirmed hours, consider the Atlantic Ocean Road tour instead, or as a second booking only if timing and buffer allow.",
     },
     {
       question: "How far is the meeting point from the cruise port?",
@@ -102,8 +102,8 @@ export const moldeCityVardenViewpointExcursion: ExcursionData = {
     { label: "Is Molde worth visiting?", href: "/is-molde-worth-visiting" },
   ],
   bookingHref: "/excursions",
-  bookingLabel: "Book this excursion",
-  ctaTitle: "Ready to book your Molde city and viewpoint tour?",
+  bookingLabel: "Explore this excursion",
+  ctaTitle: "Read the city and Varden notes, then compare other options",
   ctaText:
-    "See the City of Roses, harbour, and Mount Varden panorama with timing built for shorter cruise port calls.",
+    "Use these notes to judge short-call fit, then compare Atlantic Ocean Road options if you have a longer confirmed window. This site does not sell tickets.",
 };

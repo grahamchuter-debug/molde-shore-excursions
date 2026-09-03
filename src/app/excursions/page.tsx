@@ -10,7 +10,7 @@ import { buildItemListSchema } from "@/lib/site-schema";
 import { imageAlts, siteImages } from "@/lib/site-images";
 
 const pageMeta = {
-  title: "Molde Excursions — All Shore Tours for Cruise Passengers",
+  title: "Molde Excursions | All Shore Tours for Cruise Passengers",
   description:
     "Browse all Molde shore excursions for cruise passengers: Atlantic Ocean Road and Bud, private coastal tours, City of Roses and Mount Varden, and fishing village experiences.",
   path: "/excursions",
@@ -28,6 +28,7 @@ const breadcrumbs = [
 const relatedLinks = [
   { label: "Molde port guide", href: "/molde-port-guide" },
   { label: "One day in Molde", href: "/one-day-in-molde" },
+  { label: "Ship schedule", href: "/ship-schedule" },
   { label: "Is Molde worth visiting?", href: "/is-molde-worth-visiting" },
 ] as const;
 
@@ -35,17 +36,17 @@ const faqs = [
   {
     question: "What is the best Molde excursion for first-time cruise visitors?",
     answer:
-      "The Molde to Bud Scenic Drive and Atlantic Ocean Road tour is the headline choice when you have four or more hours in port. For shorter calls, the City of Roses and Mount Varden Viewpoint tour fits comfortably within return-to-ship timings.",
+      "The Molde to Bud Scenic Drive and Atlantic Ocean Road tour is the headline choice when you have a long, confirmed window (about five to six hours plus buffer). For shorter calls, the City of Roses and Mount Varden Viewpoint tour is the practical default.",
   },
   {
     question: "How do I choose between Molde shore excursions?",
     answer:
-      "Match the tour to your hours ashore: Mount Varden suits under-four-hour calls; Atlantic Ocean Road and fishing village tours suit 4–6 hours; private coastal drives suit 6–8 hours and longer. Use the Cruise Smart Planner on the homepage to compare options.",
+      "Match the tour to confirmed hours ashore and all aboard: Mount Varden suits under-four-hour calls; Atlantic Ocean Road and fishing village tours need more margin; private coastal drives suit longer confirmed days. Hours alone do not prove fit. Use the Cruise Smart Planner on the homepage to compare options.",
   },
   {
     question: "Do Molde excursions depart near the cruise port?",
     answer:
-      "Yes. Featured tours meet in central Molde near the harbour, cruise berths, or designated coach pickups — typically a short walk or transfer from most piers.",
+      "Yes. Featured tours meet in central Molde near the harbour, cruise berths, or designated coach pickups, typically a short walk or transfer from most piers.",
   },
 ] as const;
 
@@ -55,7 +56,7 @@ export default function ExcursionsIndexPage() {
       <JsonLd data={[buildItemListSchema(moldeTourListItems)]} />
       <ContentPage
         title="Molde Excursions"
-        lead="Every cruise-friendly shore excursion in Molde — Atlantic Ocean Road drives, Bud fishing village, Mount Varden panoramas, and coastal culture tours — with return-to-ship timing in mind."
+        lead="Cruise-friendly shore excursion options in Molde: Atlantic Ocean Road drives, Bud fishing village, Mount Varden panoramas, and coastal culture tours. Durations are approximate; confirm all aboard before you treat any coastal day as locked."
         heroImage={pageMeta.ogImage}
         heroImageAlt={pageMeta.ogImageAlt}
         pagePath={pageMeta.path}

@@ -11,10 +11,12 @@ export const siteImages = {
     "https://upload.wikimedia.org/wikipedia/commons/b/b5/Molde_Hafen.jpg",
   mountVarden:
     "https://upload.wikimedia.org/wikipedia/commons/f/fa/Molde_P9250493.JPG",
+  /** Same Storseisundet asset as atlanticOceanRoadCoast — do not label as mountains. */
   romsdalAlps:
     "https://upload.wikimedia.org/wikipedia/commons/e/e4/Fv64_Storseisundet_bru_02.jpg",
   coastalRoad:
     "https://upload.wikimedia.org/wikipedia/commons/f/fe/Storseisundet_bridge.jpg",
+  /** Harbour waterfront — not a rose-garden close-up. */
   cityRoses:
     "https://upload.wikimedia.org/wikipedia/commons/b/b5/Molde_Hafen.jpg",
   portGuide:
@@ -29,8 +31,9 @@ export const siteImages = {
     "https://upload.wikimedia.org/wikipedia/commons/f/fe/Storseisundet_bridge.jpg",
   privateAtlanticTour:
     "https://upload.wikimedia.org/wikipedia/commons/e/e4/Fv64_Storseisundet_bru_02.jpg",
+  /** Prefer Mount Varden panorama for city/Varden product hero. */
   cityVardenTour:
-    "https://upload.wikimedia.org/wikipedia/commons/b/b5/Molde_Hafen.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/f/fa/Molde_P9250493.JPG",
   fishingVillageTour:
     "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sj%C3%B8hus%2C_Bud.JPG",
   flamPortCard:
@@ -50,7 +53,7 @@ export const siteImages = {
 } as const;
 
 export const imageAlts = {
-  hero: "Molde harbour with cruise-friendly waterfront and Romsdal coastal scenery — Molde Shore Excursions",
+  hero: "Molde harbour with cruise-friendly waterfront and Romsdal coastal scenery",
   atlanticOceanRoad:
     "Storseisundet bridge on the Atlantic Ocean Road with dramatic coastal curves and open sea views near Molde",
   atlanticOceanRoadCoast:
@@ -62,39 +65,39 @@ export const imageAlts = {
   mountVarden:
     "Panoramic outlook over Molde town and harbour from Mount Varden viewpoint",
   romsdalAlps:
-    "Romsdal Alps mountain panorama visible from coastal roads and viewpoints near Molde",
+    "Storseisundet bridge on the Atlantic Ocean Road (not a Romsdal Alps mountain view)",
   coastalRoad:
-    "Scenic coastal road near Molde with Atlantic views and rugged Norwegian shoreline",
+    "Storseisundet bridge and Atlantic Ocean Road coastal scenery near Molde",
   cityRoses:
-    "Molde town centre and harbour in Norway's City of Roses cruise port",
+    "Molde harbour waterfront in Norway's City of Roses cruise port (harbour view, not a rose garden)",
   portGuide:
     "Molde cruise port harbour with ships and compact town access for shore excursions",
   worthVisiting:
-    "Atlantic Ocean Road bridge and coastal scenery — why Molde is worth visiting on a Norway cruise",
+    "Atlantic Ocean Road bridge and coastal scenery near Molde on a Norway cruise",
   oneDay:
-    "Atlantic Ocean Road coastal drive from Molde — one-day cruise itinerary scenery",
+    "Atlantic Ocean Road coastal drive scenery from Molde for one-day cruise planning",
   bestTime:
-    "Molde harbour in summer light — best time to visit Molde on a Norway cruise",
+    "Molde harbour in summer light for best-time-to-visit planning on a Norway cruise",
   atlanticOceanRoadBudCard:
-    "Molde to Bud scenic drive on the Atlantic Ocean Road — headline Molde shore excursion",
+    "Molde to Bud scenic drive on the Atlantic Ocean Road, headline Molde shore excursion",
   privateAtlanticCard:
     "Private Atlantic Ocean Road and Bud tour with flexible coastal photo stops from Molde",
   cityVardenCard:
-    "Molde City of Roses and Mount Varden viewpoint with Romsdal Alps panorama",
+    "Panorama from Mount Varden over Molde town and harbour for the City of Roses shore excursion",
   fishingVillageCard:
-    "Traditional sjøhus sea houses at Bud fishing village near Molde — Atlantic coast shore excursion",
+    "Traditional sjøhus sea houses at Bud fishing village near Molde, Atlantic coast shore excursion",
   flamPortCard:
-    "Flam harbour with a cruise ship at the pier — Flam Shore Excursions",
+    "Flam harbour with a cruise ship at the pier, Flam Shore Excursions",
   bergenPortCard:
-    "Bergen harbour and waterfront — Bergen Shore Excursions",
+    "Bergen harbour and waterfront, Bergen Shore Excursions",
   stavangerPortCard:
-    "Stavanger harbour with cruise-friendly waterfront — Stavanger Shore Excursions",
+    "Stavanger harbour with cruise-friendly waterfront, Stavanger Shore Excursions",
   alesundPortCard:
-    "Alesund harbour with cruise-friendly waterfront — Alesund Shore Excursions",
+    "Alesund harbour with cruise-friendly waterfront, Alesund Shore Excursions",
   geirangerPortCard:
-    "Geirangerfjord viewpoint with cruise ship — Geiranger Shore Excursions",
+    "Geirangerfjord viewpoint with cruise ship, Geiranger Shore Excursions",
   oldenPortCard:
-    "Briksdal Glacier and Nordfjord scenery — Olden Shore Excursions",
+    "Briksdal Glacier and Nordfjord scenery, Olden Shore Excursions",
   eidfjordPortCard:
-    "Vøringsfossen waterfall and Hardanger scenery — Eidfjord Shore Excursions",
+    "Vøringsfossen waterfall and Hardanger scenery, Eidfjord Shore Excursions",
 } as const;

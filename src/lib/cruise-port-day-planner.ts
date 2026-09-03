@@ -61,7 +61,7 @@ export const moldePortDayPlannerConfig: CruisePortDayPlannerConfig = {
       confidenceScore: 65,
       confidenceLabel: "Short but Usable Port Call",
       confidenceMessage:
-        "Good for the Molde to Bud scenic drive or the Atlantic Coast and Fishing Village Experience.",
+        "Possible for the Atlantic Ocean Road or fishing-village coast when pickup and all aboard are confirmed. Hours alone do not prove fit.",
       excursions: [
         {
           label: "Molde to Bud Scenic Drive and the Atlantic Ocean Road",
@@ -74,8 +74,8 @@ export const moldePortDayPlannerConfig: CruisePortDayPlannerConfig = {
       ],
       dayPlan: [
         "Arrive in Molde and head to your excursion meeting point",
-        "Morning or early afternoon: Atlantic Ocean Road and Bud, or coastal village touring",
-        "Add a short harbour walk only if return times are confirmed",
+        "Choose one coastal outing only if duration plus buffer is confirmed",
+        "Skip stacking Mount Varden with a long coastal drive on this window",
         "Allow 45 minutes before all aboard to reach the cruise port",
       ],
     },
@@ -86,7 +86,7 @@ export const moldePortDayPlannerConfig: CruisePortDayPlannerConfig = {
       confidenceScore: 90,
       confidenceLabel: "Strong Port Call",
       confidenceMessage:
-        "Enough time for the headline Atlantic Ocean Road tour or a private Bud and coastal drive with harbour time.",
+        "Stronger window for the headline Atlantic Ocean Road tour or a private Bud and coastal drive, still with confirmed all-aboard and buffer.",
       excursions: [
         {
           label: "Molde to Bud Scenic Drive and the Atlantic Ocean Road",
@@ -99,8 +99,8 @@ export const moldePortDayPlannerConfig: CruisePortDayPlannerConfig = {
       ],
       dayPlan: [
         "Arrive in Molde and confirm your first excursion departure",
-        "Morning: Atlantic Ocean Road and Bud scenic drive",
-        "Midday: Lunch in Molde harbour or a short Mount Varden visit if time allows",
+        "Morning: Atlantic Ocean Road and Bud scenic drive when timing is locked",
+        "Midday: Lunch in Molde harbour only if return margin remains",
         "Return to port by recommended return time",
       ],
     },
@@ -111,9 +111,9 @@ export const moldePortDayPlannerConfig: CruisePortDayPlannerConfig = {
       confidenceScore: 95,
       confidenceLabel: "Excellent Full Day",
       confidenceMessage:
-        "Ideal for combining a private Atlantic Ocean Road tour, coastal village experiences, and relaxed Molde town time.",
+        "Long confirmed days can support a private Atlantic Ocean Road outing plus relaxed town time. Stacking coast and Varden still needs separate confirmation.",
       conversionNote:
-        "Most cruise passengers with 8+ hours in Molde combine the private Atlantic Ocean Road tour with the fishing village experience and unhurried harbour sightseeing.",
+        "Most cruise passengers with 8+ hours in Molde treat the Atlantic Ocean Road as the headline activity and keep town or Varden time secondary if buffer remains.",
       excursions: [
         {
           label: "Private Molde to Bud and Atlantic Ocean Road",
@@ -128,9 +128,9 @@ export const moldePortDayPlannerConfig: CruisePortDayPlannerConfig = {
       dayPlan: [
         "Arrive early and confirm your first excursion departure",
         "Morning: Private Atlantic Ocean Road and Bud tour",
-        "Midday: Lunch in Molde's City of Roses harbour area",
-        "Afternoon: Fishing village experience or Mount Varden viewpoint",
-        "Keep the final hour free near the cruise port for a calm return to ship",
+        "Midday: Lunch in Molde harbour area",
+        "Afternoon: Mount Varden or town time only if buffer remains",
+        "Keep the final hour free near the cruise port for a calm return",
       ],
     },
   ],

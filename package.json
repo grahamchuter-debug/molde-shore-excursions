@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:schedules": "node scripts/sync-molde-schedules.mjs",
+    "qa:molde": "node scripts/qa-molde-world20.mjs"
   },
   "dependencies": {
     "next": "16.2.6",

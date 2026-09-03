@@ -16,7 +16,7 @@ export const moldeTourCards: readonly MoldeTourCard[] = [
     imageAlt: imageAlts.atlanticOceanRoadBudCard,
     title: "Molde to Bud Scenic Drive and the Atlantic Ocean Road",
     description:
-      "Headline Molde shore excursion — Atlantic Ocean Road bridges, Bud fishing village, coastal scenery, panoramic ocean views, and local history on a scenic drive from Molde.",
+      "Headline Molde shore excursion: Atlantic Ocean Road bridges, Bud fishing village, coastal scenery and ocean views. About five to six hours, with confirmed all-aboard required.",
     accent: "blue",
   },
   {
@@ -25,7 +25,7 @@ export const moldeTourCards: readonly MoldeTourCard[] = [
     imageAlt: imageAlts.privateAtlanticCard,
     title: "Private Molde to Bud and Atlantic Ocean Road",
     description:
-      "Premium private sightseeing with flexible pace, Atlantic Ocean Road highlights, Bud fishing village, and scenic coastal photo stops — ideal for families, couples, and small groups.",
+      "Premium private sightseeing with flexible pace, Atlantic Ocean Road highlights, Bud fishing village and coastal photo stops for families, couples and small groups.",
     accent: "red",
   },
   {
@@ -34,7 +34,7 @@ export const moldeTourCards: readonly MoldeTourCard[] = [
     imageAlt: imageAlts.cityVardenCard,
     title: "Molde City of Roses and Mount Varden Viewpoint",
     description:
-      "Shorter scenic city tour — Molde town, City of Roses gardens, harbour area, Mount Varden viewpoint, and Romsdal Alps panorama for tighter port calls.",
+      "Shorter scenic city tour: Molde town, harbour area, Mount Varden viewpoint and town panorama for tighter port calls.",
     accent: "blue",
   },
   {
@@ -43,7 +43,7 @@ export const moldeTourCards: readonly MoldeTourCard[] = [
     imageAlt: imageAlts.fishingVillageCard,
     title: "Atlantic Coast and Fishing Village Experience",
     description:
-      "Coastal culture and nature — fishing village atmosphere, rugged landscapes, ocean road scenery, local history, and photography stops along the Romsdal coast.",
+      "Coastal culture and nature: fishing village atmosphere, rugged landscapes, ocean road scenery, local history and photography stops along the Romsdal coast.",
     accent: "red",
   },
 ] as const;
