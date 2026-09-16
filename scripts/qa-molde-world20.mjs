@@ -28,14 +28,15 @@ const rows = data.rows || [];
 const integrity = data.integrity || {};
 
 const expected = {
-  total: 80,
+  total: 114,
   y2026: 43,
   y2027: 37,
+  y2028: 34,
   first: "2026-06-05",
-  last: "2027-12-20",
-  ships: 30,
-  lines: 17,
-  months: 10,
+  last: "2028-10-24",
+  ships: 38,
+  lines: 18,
+  months: 18,
   busiest: { key: "2026-07", count: 14 },
   light: { key: "2027-12", count: 1 },
 };
@@ -82,10 +83,10 @@ if (integrity.cruiseLines !== expected.lines) {
   pass(`cruise lines ${expected.lines}`);
 }
 
-if (integrity.has2028 || rows.some((r) => String(r.arrival_date).startsWith("2028"))) {
-  fail("2028 schedule data present");
+if ((integrity.byYear?.["2028"] ?? 0) !== 34 || !integrity.has2028) {
+  fail(`2028 ${integrity.byYear?.["2028"]}, expected 34`);
 } else {
-  pass("no 2028 schedule data");
+  pass(`2028 calls 34`);
 }
 
 const required = [
@@ -266,6 +267,14 @@ const expectedMonths = [
   "2027-09",
   "2027-10",
   "2027-12",
+  "2028-03",
+  "2028-04",
+  "2028-05",
+  "2028-06",
+  "2028-07",
+  "2028-08",
+  "2028-09",
+  "2028-10"
 ];
 if (monthKeys.join(",") !== expectedMonths.join(",")) {
   fail(`month keys ${monthKeys.join(",")} do not match expected set`);

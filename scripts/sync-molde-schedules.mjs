@@ -13,10 +13,6 @@ const outPath = path.join(root, "src/data/molde-cruise-schedules.generated.json"
 const payload = JSON.parse(readFileSync(sourcePath, "utf8"));
 const rows = (payload.rows || []).filter((r) => r.port === "molde");
 
-if (rows.some((r) => String(r.arrival_date || "").startsWith("2028"))) {
-  console.error("ABORT: 2028");
-  process.exit(1);
-}
 
 const years = {};
 for (const r of rows) {
